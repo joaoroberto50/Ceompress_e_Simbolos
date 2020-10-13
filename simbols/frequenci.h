@@ -7,7 +7,7 @@ struct simbolo{
 
 typedef struct no* Lista;
 
-Lista* nova_lista();
+Lista* nova_lista(void);
 
 int add_final(Lista* li, struct simbolo sb);
 
