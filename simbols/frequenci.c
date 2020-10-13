@@ -94,6 +94,7 @@ int main(int argc, char const *argv[])
 
 	imprime_lista(li, cont);
 	dell_lista(li);
+  fclose(file);
 	return 0;
 }
 
