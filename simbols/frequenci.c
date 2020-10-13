@@ -12,7 +12,7 @@ struct no
 
 typedef struct no No;
 
-Lista* nova_lista(){
+Lista* nova_lista(void){
 	Lista* li = (Lista*) malloc(sizeof(Lista));
 	if(li != NULL)
 		*li = NULL;
@@ -94,7 +94,7 @@ int main(int argc, char const *argv[])
 
 	imprime_lista(li, cont);
 	dell_lista(li);
-  fclose(file);
+  	fclose(file);
 	return 0;
 }
 
